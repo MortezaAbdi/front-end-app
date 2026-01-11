@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Less, but Better — Portfolio</title>
+    <meta
+      name="description"
+      content="A minimalist, responsive portfolio inspired by Dieter Rams — less, but better."
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" id="top">
+      <div class="container header-grid">
+        <a class="logo" href="#home" aria-label="Go to Home">
+          <span class="logo-mark" aria-hidden="true">●</span>
+          <span class="logo-text">Rams-ish</span>
+        </a>
+
+        <button
+          class="burger"
+          type="button"
+          aria-label="Open menu"
+          aria-controls="primary-nav"
+          aria-expanded="false"
+        >
+          <span class="burger-lines" aria-hidden="true">
+            <span></span><span></span><span></span>
+          </span>
+        </button>
+
+        <nav class="nav" aria-label="Primary">
+          <div class="nav-panel" id="primary-nav" data-nav-panel>
+            <ul class="nav-list">
+              <li><a class="nav-link" href="#home">Home</a></li>
+              <li><a class="nav-link" href="#about">About</a></li>
+              <li><a class="nav-link" href="#collection">Collection</a></li>
+              <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="section hero" id="home" aria-label="Home">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">
+              <span class="pill">AUDIO</span>
+              <span class="muted">Braun-inspired minimal forms</span>
+            </p>
+            <h1>Timeless legends.</h1>
+            <p class="lead">
+              A simple portfolio study inspired by Dieter Rams: honest materials,
+              clear function, and calm editorial rhythm.
+            </p>
+            <div class="cta-row">
+              <a class="button" href="#collection">See collection</a>
+              <a class="text-link" href="#about">Read the story</a>
+            </div>
+          </div>
+
+          <figure class="hero-media">
+            <img
+              src="BRAUN/BRAUN/tp1-phono-transistor-radio-by-dieter-rams-for-braun-ag-germany-1959-1.jpg"
+              width="1200"
+              height="900"
+              alt="Braun TP1 portable radio — front view"
+              loading="eager"
+            />
+            <figcaption class="caption">Braun TP1 Radio — 1959</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section about" id="about" aria-label="About">
+        <div class="container two-col">
+          <header class="section-head">
+            <h2>Dieter Rams</h2>
+            <p class="muted">
+              Industrial designer whose work shaped modern product language.
+            </p>
+          </header>
+
+          <div class="prose">
+            <p>
+              Dieter Rams (born 1932) is best known for his long career at Braun
+              and for articulating a clear design ethic: make products that are
+              understandable, unobtrusive, and built to last.
+            </p>
+
+            <p>
+              Rams distilled his thinking into “Ten Principles for Good Design”,
+              emphasizing usefulness, honesty, and as little design as possible.
+              The goal is not decoration — it’s clarity.
+            </p>
+
+            <figure class="inline-figure">
+              <img
+                src="BRAUN/BRAUN/tp1-phono-transistor-radio-by-dieter-rams-for-braun-ag-germany-1959-11.jpg"
+                width="1200"
+                height="800"
+                alt="Braun TP1 radio detail — dial and grille"
+                loading="lazy"
+              />
+              <figcaption class="caption">Detail: function made visible.</figcaption>
+            </figure>
+
+            <p>
+              This page is a compact, responsive layout exercise: an editorial
+              story, a small collection grid, and a contact form. Replace the
+              placeholder images in <strong>assets/</strong> with your own to
+              match your assignment.
+            </p>
+
+            <figure class="inline-figure">
+              <img
+                src="BRAUN/BRAUN/bouw.jpg"
+                width="1200"
+                height="800"
+                alt="Interior scene with audio setup"
+                loading="lazy"
+              />
+              <figcaption class="caption">Space: quiet, ordered, human.</figcaption>
+            </figure>
+
+            <details class="principles" id="principles">
+              <summary>Principles (short list)</summary>
+              <ol>
+                <li>Useful and understandable</li>
+                <li>Honest and unobtrusive</li>
+                <li>Thorough down to the last detail</li>
+                <li>Environmentally considerate</li>
+                <li>As little design as possible</li>
+              </ol>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section collection" id="collection" aria-label="Collection">
+        <div class="container">
+          <header class="section-head wide">
+            <div>
+              <p class="eyebrow"><span class="pill">Collections</span></p>
+              <h2>Objects, photographed simply.</h2>
+            </div>
+            <p class="muted">
+              A grid gallery driven by CSS Grid. Swap in your own images.
+            </p>
+          </header>
+
+          <div class="collection-grid">
+            <article class="feature-card">
+              <p class="pill subtle">Braun TP1 Radio — Audio</p>
+              <h3>One object, many angles.</h3>
+              <p class="muted">
+                Keep captions short. Let images do the work. Use consistent
+                crops and generous whitespace.
+              </p>
+              <a class="text-link" href="#contact">Request details</a>
+            </article>
+
+            <figure class="card">
+              <img
+                src="BRAUN/BRAUN/tp1-phono-transistor-radio-by-dieter-rams-for-braun-ag-germany-1959-2.jpg"
+                width="1200"
+                height="900"
+                alt="Braun TP1 portable radio — view 02"
+                loading="lazy"
+              />
+              <figcaption class="caption">TP1 — View 02</figcaption>
+            </figure>
+
+            <figure class="card">
+              <img
+                src="BRAUN/BRAUN/tp1-phono-transistor-radio-by-dieter-rams-for-braun-ag-germany-1959-3.jpg"
+                width="1200"
+                height="900"
+                alt="Braun TP1 portable radio — view 03"
+                loading="lazy"
+              />
+              <figcaption class="caption">TP1 — View 03</figcaption>
+            </figure>
+
+            <figure class="card">
+              <img
+                src="BRAUN/BRAUN/tp1-phono-transistor-radio-by-dieter-rams-for-braun-ag-germany-1959-4.jpg"
+                width="1200"
+                height="900"
+                alt="Braun TP1 portable radio — view 04"
+                loading="lazy"
+              />
+              <figcaption class="caption">TP1 — View 04</figcaption>
+            </figure>
+
+            <figure class="card">
+              <img
+                src="BRAUN/BRAUN/tp1-phono-transistor-radio-by-dieter-rams-for-braun-ag-germany-1959-5.jpg"
+                width="1200"
+                height="900"
+                alt="Braun TP1 portable radio — view 05"
+                loading="lazy"
+              />
+              <figcaption class="caption">TP1 — View 05</figcaption>
+            </figure>
+
+            <figure class="card">
+              <img
+                src="BRAUN/BRAUN/tp1-phono-transistor-radio-by-dieter-rams-for-braun-ag-germany-1959-6.jpg"
+                width="1200"
+                height="900"
+                alt="Braun TP1 portable radio — view 06"
+                loading="lazy"
+              />
+              <figcaption class="caption">TP1 — View 06</figcaption>
+            </figure>
+
+            <figure class="card">
+              <img
+                src="BRAUN/BRAUN/tp1-phono-transistor-radio-by-dieter-rams-for-braun-ag-germany-1959-7.jpg"
+                width="1200"
+                height="900"
+                alt="Braun TP1 portable radio — view 07"
+                loading="lazy"
+              />
+              <figcaption class="caption">TP1 — View 07</figcaption>
+            </figure>
+
+            <figure class="card">
+              <img
+                src="BRAUN/BRAUN/tp1-phono-transistor-radio-by-dieter-rams-for-braun-ag-germany-1959-8.jpg"
+                width="1200"
+                height="900"
+                alt="Braun TP1 portable radio — view 08"
+                loading="lazy"
+              />
+              <figcaption class="caption">TP1 — View 08</figcaption>
+            </figure>
+
+            <figure class="card">
+              <img
+                src="BRAUN/BRAUN/tp1-phono-transistor-radio-by-dieter-rams-for-braun-ag-germany-1959-9.jpg"
+                width="1200"
+                height="900"
+                alt="Braun TP1 portable radio — view 09"
+                loading="lazy"
+              />
+              <figcaption class="caption">TP1 — View 09</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact" aria-label="Contact">
+        <div class="container two-col">
+          <header class="section-head">
+            <h2>Contact</h2>
+            <p class="muted">Front-end form only. No backend required.</p>
+          </header>
+
+          <div class="contact-grid">
+            <form class="form" id="contact-form" novalidate>
+              <label>
+                <span>Name</span>
+                <input name="name" type="text" autocomplete="name" required />
+              </label>
+
+              <label>
+                <span>Email</span>
+                <input
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                />
+              </label>
+
+              <label>
+                <span>Message</span>
+                <textarea name="message" rows="5" required></textarea>
+              </label>
+
+              <button class="button" type="submit">Send</button>
+              <p class="form-note" role="status" aria-live="polite" hidden>
+                Thanks — message prepared. (No backend connected.)
+              </p>
+            </form>
+
+            <aside class="contact-info" aria-label="Contact details">
+              <h3>Details</h3>
+              <dl>
+                <div>
+                  <dt>Email</dt>
+                  <dd><a href="mailto:hello@example.com">hello@example.com</a></dd>
+                </div>
+                <div>
+                  <dt>Location</dt>
+                  <dd>Tehran (placeholder)</dd>
+                </div>
+              </dl>
+              <p class="muted">
+                Keep this block minimal — one or two points is enough.
+              </p>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <p class="muted">Less, but better.</p>
+        <ul class="footer-links" aria-label="Social links">
+          <li><a href="#" aria-label="Instagram (placeholder)">Instagram</a></li>
+          <li><a href="#" aria-label="Behance (placeholder)">Behance</a></li>
+          <li><a href="#" aria-label="LinkedIn (placeholder)">LinkedIn</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

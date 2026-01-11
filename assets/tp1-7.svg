@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-label="Placeholder image">
+  <rect width="1200" height="900" fill="#f2f1ee"/>
+  <rect x="160" y="210" width="880" height="480" rx="28" fill="#fff" stroke="#111214" stroke-opacity="0.12" stroke-width="3"/>
+  <g fill="#111214" fill-opacity="0.05">
+    <circle cx="340" cy="370" r="7"/>
+    <circle cx="380" cy="370" r="7"/>
+    <circle cx="420" cy="370" r="7"/>
+    <circle cx="460" cy="370" r="7"/>
+    <circle cx="500" cy="370" r="7"/>
+
+    <circle cx="340" cy="410" r="7"/>
+    <circle cx="380" cy="410" r="7"/>
+    <circle cx="420" cy="410" r="7"/>
+    <circle cx="460" cy="410" r="7"/>
+    <circle cx="500" cy="410" r="7"/>
+
+    <circle cx="340" cy="450" r="7"/>
+    <circle cx="380" cy="450" r="7"/>
+    <circle cx="420" cy="450" r="7"/>
+    <circle cx="460" cy="450" r="7"/>
+    <circle cx="500" cy="450" r="7"/>
+
+    <circle cx="340" cy="490" r="7"/>
+    <circle cx="380" cy="490" r="7"/>
+    <circle cx="420" cy="490" r="7"/>
+    <circle cx="460" cy="490" r="7"/>
+    <circle cx="500" cy="490" r="7"/>
+  </g>
+  <rect x="620" y="340" width="320" height="60" rx="14" fill="#111214" fill-opacity="0.06"/>
+  <rect x="620" y="430" width="240" height="28" rx="10" fill="#111214" fill-opacity="0.05"/>
+  <rect x="620" y="480" width="280" height="28" rx="10" fill="#111214" fill-opacity="0.05"/>
+  <text x="70" y="120" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial" font-size="34" fill="#111214" fill-opacity="0.55">TP1-7 (placeholder)</text>
+</svg>
